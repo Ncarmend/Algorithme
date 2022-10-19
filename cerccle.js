@@ -1,5 +1,6 @@
-const pi= Math.PI;
 
-r = prompt("entrez le rayon");
-diam =(r *2);
-calcul= pi* r*r;
+const prompt = require('prompt-sync')();
+const tva = 21;
+let a = parseInt(prompt("entrer un nombre : "));
+calcul = (a*tva)/100;
+console.log(calcul);
